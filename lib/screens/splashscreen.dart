@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:hiveproj/Models/PersonModel.dart';
+import 'package:hiveproj/models/PersonModel.dart';
 import 'package:hiveproj/screens/homescreen.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';

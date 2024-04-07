@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:hiveproj/Models/PersonModel.dart';
+import 'package:hiveproj/models/PersonModel.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -64,7 +64,7 @@ class _HomePageState extends State<HomePage> {
               Row(
                 children: [
                   Text(
-                    person.name,
+                    "Name : ${person.name}",
                     style: const TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.w500,
@@ -90,7 +90,7 @@ class _HomePageState extends State<HomePage> {
                 ],
               ),
               Text(
-                person.age.toString(),
+                "Age : ${person.age.toString()}",
                 style: const TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.w300,
